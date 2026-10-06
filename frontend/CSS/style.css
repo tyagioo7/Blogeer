@@ -1,0 +1,113 @@
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+.logo {
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 700;
+}
+
+
+:root {
+    --ice-cold: #a0d2eb;
+    --freeze-purple: #e5eaf5;
+    --medium-purple: #d0bdf4;
+    --purple-pain: #8458B3;
+    --heavy-purple: #a28089;
+
+    --text-dark: #211b2d;
+    --text-muted: #6b6475;
+    --white: #ffffff;
+}
+
+h1{
+    color:var(--purple-pain)
+}
+
+
+body {
+    font-family: "Space Grotesk", sans-serif;
+    background-color: var(--freeze-purple);
+    color: var(--text-dark);
+}
+
+
+
+.logo {
+    color: var(--purple-pain);
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+
+
+#search-input {
+    background-color: var(--white);
+    border: 1px solid var(--medium-purple);
+    border-radius: 10px;
+    padding: 12px 16px;
+}
+
+#search-input:focus {
+    border-color: var(--purple-pain);
+    box-shadow: 0 0 0 0.2rem rgba(132, 88, 179, 0.15);
+}
+
+
+
+.post-card,
+.card {
+    background-color: var(--white);
+    border: 1px solid var(--medium-purple);
+    border-radius: 14px;
+}
+
+.card-title {
+    color: var(--purple-pain);
+    font-weight: 700;
+}
+
+.card-text {
+    color: var(--text-muted);
+}
+
+.card-footer {
+    background-color: #faf9fd;
+    border-top: 1px solid var(--medium-purple);
+}
+
+
+
+.btn-primary {
+    background-color: var(--purple-pain);
+    border-color: var(--purple-pain);
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background-color: #70499d;
+    border-color: #70499d;
+}
+
+
+
+a {
+    color: var(--purple-pain);
+}
+
+a:hover {
+    color: #70499d;
+}
+
+
+
+#post-detail .card-title {
+    color: var(--purple-pain);
+}
+
+#post-detail p {
+    color: var(--text-muted);
+    line-height: 1.8;
+}
+

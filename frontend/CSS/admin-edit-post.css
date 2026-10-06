@@ -1,0 +1,175 @@
+
+
+body {
+    background-color: #212A31;
+    color: #1e293b;
+}
+
+
+/* Main Card */
+
+.card {
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+
+/* Card Header / Heading */
+
+.card-body h1 {
+    color: #90AEAD;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+
+/* Labels */
+
+.form-label {
+    color: #334155;
+    font-weight: 600;
+}
+
+
+/* Inputs */
+
+.form-control,
+.form-select {
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 11px 13px;
+}
+
+
+.form-control:focus,
+.form-select:focus {
+    border-color: #4f46e5;
+    box-shadow: 0 0 0 0.2rem rgba(79, 70, 229, 0.15);
+}
+
+
+/* Create Button */
+
+.btn-primary {
+    background-color: #4f46e5;
+    border-color: #4f46e5;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+.btn-primary:hover {
+    background-color: #4338ca;
+    border-color: #4338ca;
+}
+
+
+
+
+#add-post-message {
+    font-weight: 500;
+}
+
+/* Main Card */
+
+.card {
+    background: #172033 !important;
+    border: 1px solid #334155 !important;
+    border-top: 5px solid #6366f1 !important;
+    border-radius: 18px !important;
+}
+
+
+/* Card Body */
+
+.card-body {
+    color: #212A31;
+}
+
+
+/* Heading */
+
+h1 {
+    color: #ffffff;
+    font-weight: 700;
+}
+
+
+/* Labels */
+
+.form-label {
+    color: #cbd5e1;
+}
+
+
+/* Inputs */
+
+.form-control,
+.form-select {
+    background-color: #0f172a;
+    color: #f8fafc;
+    border: 1px solid #475569;
+    border-radius: 9px;
+}
+
+
+/* Placeholder */
+
+.form-control::placeholder {
+    color: #94a3b8;
+}
+
+
+/* Input Focus */
+
+.form-control:focus,
+.form-select:focus {
+    background-color: #0f172a;
+    color: #ffffff;
+    border-color: #818cf8;
+    box-shadow: 0 0 0 0.2rem rgba(99, 102, 241, 0.2);
+}
+
+
+/* Dropdown */
+
+.form-select {
+    color: #f8fafc;
+}
+
+
+/* Dropdown Options */
+
+.form-select option {
+    background-color: #172033;
+    color: #ffffff;
+}
+
+
+/* Update Button */
+
+.btn-primary {
+    background: linear-gradient(135deg, #6366f1, #8b5cf6);
+    border: none;
+    border-radius: 9px;
+    font-weight: 600;
+    padding: 11px 24px;
+    transition: all 0.2s ease;
+}
+
+
+/* Button Hover */
+
+.btn-primary:hover {
+    background: linear-gradient(135deg, #4f46e5, #7c3aed);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.35);
+}
+
+
+/* Message */
+
+#edit-message {
+    color: #cbd5e1;
+}
+

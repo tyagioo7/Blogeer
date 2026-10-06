@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Blogeer Dashboard</title>
+
+    <link
+        rel="stylesheet"
+        href="./CSS/admin-dashboard.css"
+    >
+
+</head>
+
+
+<body>
+
+    <div class="dashboard">
+
+
+        <!-- HEADER -->
+
+        <header class="dashboard-header">
+
+            <h1>Dashboard</h1>
+
+
+            <div class="profile">
+
+                <button id="profile-btn">
+                    👤 Vaibhav ▾
+                </button>
+
+
+                <div
+                    id="profile-dropdown"
+                    class="profile-dropdown"
+                >
+
+                    <p>Vaibhav</p>
+
+                    <p>admin@email.com</p>
+
+                    <hr>
+
+                    <button id="profile-link">
+                        Profile
+                    </button>
+
+                    <button id="logout-btn">
+                        Logout
+                    </button>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- sidebar -->
+
+        <aside class="sidebar">
+
+            <button id="posts-btn">
+                Posts
+            </button>
+
+            <button id="add-post-btn">
+                Add Post
+            </button>
+
+        </aside>
+
+
+        <!-- main content -->
+
+        <main class="dashboard-content">
+
+            <h2>Posts</h2>
+
+
+            <table>
+
+                <thead>
+
+                    <tr>
+
+                        <th>Title</th>
+
+                        <th>Author</th>
+
+                        <th>Created At</th>
+
+                        <th>Category</th>
+
+                        <th>Status</th>
+
+                        <th>Actions</th>
+
+                    </tr>
+
+                </thead>
+
+
+                <tbody id="posts-container">
+
+                    <!-- Posts will be added by JavaScript -->
+
+                </tbody>
+
+            </table>
+
+
+        </main>
+
+
+    </div>
+
+    <!-- DASHBOARD JAVASCRIPT -->
+
+    <script src="./admin-dashboard.js"></script>
+
+</body>
+
+</html>
