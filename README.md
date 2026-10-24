@@ -299,6 +299,5 @@ Some improvements I would like to add later:
 
 GitHub: https://github.com/tyagioo7
 
-git statusgit status
 
 Built as a learning project to understand how a complete full-stack application is designed and connected together.
